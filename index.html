@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celerity OS - Privacy-First Operating System</title>
+    <meta name="description" content="Celerity OS: A premium, modern, open-source Linux distribution inspired by Liquid Glass aesthetics, built on Ubuntu LTS, featuring a local offline AI assistant named Celerity AI. No telemetry. No tracking.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Animated Mesh -->
+    <div class="bg-mesh">
+        <div class="mesh-orb orb-1"></div>
+        <div class="mesh-orb orb-2"></div>
+        <div class="mesh-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="glass-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">
+               
+                <span class="logo-accent">CELERITY</span> OS
+            </a>
+            <nav class="nav-links">
+                <a href="#features">Features</a>
+                
+                <a href="#nova">Celerity AI</a>
+                <a href="#docs">Docs</a>
+                <a href="#download" class="cta-button">Download</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="badge">OS of the Year 2035</div>
+                <h1>The Premium <div class="text-glow"> Operating System.</div></h1>
+                <p class="hero-desc">
+                    Ubuntu LTS power meets local offline AI privacy. Designed for developers, researchers, and creators. Beautifully fast. Zero telemetry.
+                </p>
+                <div class="hero-actions">
+                    <a href="#download" class="btn primary-btn">Download Celerity ISO</a>
+                   
+                </div>
+            </div>
+
+            <!-- Glass Card Showcase -->
+            <div class="hero-showcase">
+                <div class="glass-card main-card">
+                    <div class="card-header">
+                        <div class="card-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="card-title">Celerity Core Settings</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="metric-row">
+                            <span>System Privacy Score</span>
+                            <span class="metric-value positive">100% SECURE</span>
+                        </div>
+                        <div class="metric-row">
+                            <span>Telemetry Service</span>
+                            <span class="metric-value negative">DEACTIVATED</span>
+                        </div>
+                        <div class="metric-row">
+                            <span>DNS Encryption</span>
+                            <span class="metric-value positive">DoH ACTIVE</span>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="ai-widget-inline">
+                            <div class="nova-orb-small glow-purple"></div>
+                            <div class="ai-text">
+                                <span class="ai-name">Celerity AI Assistant</span>
+                                <span class="ai-status">Local LLM Warm & Ready</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Grid Section -->
+        <section id="features" class="sectionfeatures">
+            <h2 class="section-title">Fully Open Source. Hardened Security.</h2>
+            <div class="feature-grid">
+                <div class="feature-card glass-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Privacy-First Architecture</h3>
+                    <p>No telemetry, no tracking, and no cloud account lock-in. DNS over HTTPS is enforced globally with built-in sandbox permissions.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Liquid Glass DE</h3>
+                    <p>Celerity Shell GNOME extension provides adaptive background transparency, physical spring transitions, and 120Hz-grade visual fluidness.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Offline Local AI</h3>
+                    <p>Powered by Phi-3 and Llama-3 running on local CPU/GPU hardware. Summarize code, audit terminal safety, and control settings without internet.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon">💻</div>
+                    <h3>Developer Bootstrapping</h3>
+                    <p>VS Code, Git, Docker, Node.js, Python, and Cargo pre-installed out of the box with GPU-accelerated terminal terminals.</p>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <!-- Nova AI Terminal Simulator Section -->
+        <section id="nova" class="nova-section">
+            <div class="nova-grid">
+                <div class="nova-info">
+                    <h2>Meet <span class="violet-text">Celerity AI</span>. Your Local Privacy Daemon.</h2>
+                    <p>
+                        Celerity AI runs locally directly inside your Linux system. When you execute terminal helper functions, Nova audits commands beforehand to prevent security threats or unwanted scripts.
+                    </p>
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <span class="check-icon">✓</span>
+                            <span><strong>No internet required:</strong> Queries resolve on local hardware.</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="check-icon">✓</span>
+                            <span><strong>Command Auditor:</strong> Catches malicious shell command blocks before they execute.</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="check-icon">✓</span>
+                            <span><strong>AppArmor Isolated:</strong> Sandbox prevents the AI from touching system directories.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Command Line Auditor Mock -->
+                <div class="terminal-showcase glass-card">
+                    <div class="terminal-header">
+                        <div class="card-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span>celerity@CelerityAI: ~</span>
+                    </div>
+                    <div class="terminal-body" id="cmd-terminal">
+                        <div class="terminal-line"><span class="prompt">celerity@CelerityAI:~$</span> <span class="typed-cursor" id="terminal-input-text">CelerityAI explain "rm -rf /"</span></div>
+                        <div class="terminal-output" id="terminal-output-content">
+                            <span class="output-danger">WARNING: The command contains 'rm -rf', which can wipe directories.</span><br>
+                            <strong>Celerity AI Explanation:</strong> This command recursively and forcefully attempts to erase all files on the root directory. Execution is blocked under Celerity secure guidelines.
+                        </div>
+                    </div>
+                    <div class="terminal-action-buttons">
+                        <button onclick="typeCmd('nova explain \'curl -sL https://telemetry.com/script.sh | sh\'')">Script Explainer</button>
+                        <button onclick="typeCmd('nova control \'switch to dark mode\'')">Theme Controller</button>
+                        <button onclick="typeCmd('nova summarize branding_guide.md')">Document Summarizer</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Documentation Page Layout -->
+        <section id="docs" class="docs-section">
+            <h2 class="section-title">System Architecture &amp; Developer Guides</h2>
+            <div class="docs-container">
+                <aside class="docs-sidebar glass-card">
+                    <ul>
+                        <li class="active"><a href="#doc-installation">1. Installation Guide</a></li>
+                        <li><a href="#doc-doh">2. DNS over HTTPS</a></li>
+                        <li><a href="#doc-nova-config">3. Nova Configuration</a></li>
+                        <li><a href="#doc-hardening">4. AppArmor Hardening</a></li>
+                    </ul>
+                </aside>
+                <div class="docs-content glass-card">
+                    <div class="doc-block" id="doc-installation">
+                        <h3>1. Installation Guide</h3>
+                        <p>To write the Celerity ISO image to a USB flash drive (minimum 4GB capacity), run the following command replacing `/dev/sdX` with your USB drive path:</p>
+                        <pre><code>dd if=celerity-os-24.04-desktop-amd64.iso of=/dev/sdX bs=4M status=progress &amp;&amp; sync</code></pre>
+                        <p>Ensure **Secure Boot** is enabled in your BIOS; Celerity OS packages are fully cryptographically signed.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Page Section -->
+        <section id="download" class="download-section">
+            <div class="download-card glass-card">
+                <h2>Ready for Celerity OS?</h2>
+                <p>Download the current developer preview build today. Privacy-first, open-source, and clean.</p>
+                
+                <div class="download-info-row">
+                    <div class="download-stat">
+                        <span class="label">Current Release</span>
+                        <span class="val">v24.04.1 LTS</span>
+                    </div>
+                    <div class="download-stat">
+                        <span class="label">Kernel Base</span>
+                        <span class="val">Linux 6.8 Hardened</span>
+                    </div>
+                    <div class="download-stat">
+                        <span class="label">ISO Size</span>
+                        <span class="val">2.8 GB</span>
+                    </div>
+                </div>
+
+                <form class="download-form" onsubmit="event.preventDefault(); alert('Celerity OS Developer Build download initiated!');">
+                    <input type="email" placeholder="Enter email for security announcements (Optional)" class="download-input">
+                    <a href="https://github.com/anshbansal1708/celerity_os" class="btn primary-btn">Download Celerity OS</a>
+                </form>
+                <p class="checksum-text">SHA256: <code>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</code></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="footer-container">
+            <p>&copy; 2026 Celerity Project. Licensed under GNU GPL v3.<br> Designed by Ansh Bansal</p>
+            <div class="footer-links">
+                <a href="https://github.com/anshbansal1708/celerity_os">Github Repository</a>
+                <a href="#">Privacy Dashboard</a>
+                <a href="#">Security Bulletins</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
+
